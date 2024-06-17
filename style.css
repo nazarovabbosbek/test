@@ -1,0 +1,544 @@
+@import url(./fonts/font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 110px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+
+}
+
+.right {
+    padding-left: 123px;
+    max-width: 320px;
+    width: 100%;
+    height: 1900px;
+}
+
+.logo-img {
+    width: 137px;
+    margin-bottom: 61px;
+    margin-top: 26px;
+
+}
+
+.none {
+    border-bottom: 0.5px solid rgb(164, 172, 173);
+    margin-bottom: 31px;
+    width: 180px;
+
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-nav_link {
+    display: flex;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+    font-family: dinpro-bold;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.right-nav_link:hover {
+    color: rgb(255, 152, 70);
+    transition: 0.4s;
+}
+
+.center {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    max-width: 1169px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+
+.title {
+
+    color: rgb(164, 172, 173);
+    font-family: dinpro-regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.shop {
+    display: flex;
+    gap: 69px;
+    margin-right: 39px;
+
+}
+
+.town {
+
+    color: rgb(0, 0, 0);
+    font-family: dinpro-regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 5px;
+    margin-left: 28px;
+    margin-right: 7px;
+    height: 88px;
+    border-right: 0.5px solid rgb(164, 172, 173);
+
+}
+
+.any {
+    display: flex;
+    width: 1169px;
+    height: 94px;
+    border-bottom: 0.5px solid rgb(164, 172, 173);
+
+}
+
+.menu {
+    display: flex;
+    gap: 500px;
+    margin-top: 25px;
+    margin-left: 7px;
+
+}
+
+
+.contact-title {
+    color: rgb(17, 17, 17);
+    font-family: dinpro-medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.num {
+    color: rgb(255, 152, 70);
+    font-family: dinpro-medium;
+    width: 160px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.date {
+    color: rgb(164, 172, 173);
+    font-family: dinpro-medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 10px;
+}
+
+
+.left {
+    padding-right: 123px;
+    max-width: 320px;
+    width: 100%;
+    height: 1900px;
+}
+
+.shop-catalog {
+    padding: 10px 12px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 55px;
+    width: 290px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 8px;
+    height: 140px;
+}
+
+.shop-catalog_title {
+    color: rgb(0, 0, 0);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.shop-catalog_text {
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.but {
+    color: rgb(242, 242, 242);
+    font-family: DIN Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 32px;
+    background-color: rgb(255, 152, 70);
+    border: none;
+    margin-top: 26px;
+    margin-left: -12px;
+    width: 290px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.map {
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    width: 290px;
+    background-color: rgb(242, 242, 242);
+}
+
+.loc-img {
+    position: absolute;
+    top: 97px;
+    left: 126px;
+    background-color: rgb(255, 152, 70);
+    border-radius: 50%;
+    padding: 11px;
+}
+
+.map-title {
+    color: rgb(0, 0, 0);
+    font-family: dinpro-medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 37px;
+    text-align: center;
+}
+
+.map-text {
+    color: rgb(164, 172, 173);
+    font-family: dinpro-regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+.banner-img {
+    margin-top: 30px;
+}
+
+.catalog {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-catalog {
+    display: flex;
+}
+
+.catalog-img {
+    margin-right: 22px;
+    margin-left: 30px;
+}
+
+.second-catalog {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+.catalog-title {
+    position: absolute;
+    bottom: 8px;
+    left: 490px;
+    color: rgb(255, 255, 255);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cart {
+    margin-top: 42px;
+}
+
+.cart-nav {
+    display: flex;
+    gap: 19px;
+}
+
+.cart-nav_link {
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.cart-nav_link:hover,
+.cart-nav_link:active {
+    color: black;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.carts {
+    display: flex;
+    gap: 41px;
+    margin-top: 28px;
+}
+
+.first-cart {
+    width: 289px;
+    border-bottom: 0.5px solid rgb(164, 172, 173);
+    background-color: #fff;
+}
+
+.first-cart_img {
+    padding: 0 18px;
+}
+
+.first-cart_title {
+    color: rgb(0, 0, 0);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 17px;
+    width: 180px;
+}
+
+.first-cart_titl {
+    color: rgb(0, 0, 0);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 180px;
+}
+
+.first-cart_text {
+    /* h3_regular */
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 28.5px;
+    margin-bottom: 36px;
+    margin-left: 17px;
+}
+
+.first-cart_tex {
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 36px;
+    margin-left: 17px;
+}
+
+.price {
+    background-color: white;
+}
+
+.price-num {
+    color: rgb(0, 0, 0);
+    font-family: dinpro-bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 17px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.price-but {
+    padding: 2px 42px;
+    border: none;
+    background-color: rgb(244, 109, 64);
+    color: rgb(242, 242, 242);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 7px;
+    border-radius: 8px;
+}
+
+.page-footer {
+    margin-top: 58px;
+    border-top: 0.5px solid rgb(164, 172, 173);
+    width: 950px;
+    margin-left: 110px;
+}
+
+.content-3 {
+    display: flex;
+}
+
+.first-footer {
+    width: 290px;
+    border-right: 1px solid rgb(164, 172, 173);
+    margin-top: 22px;
+    height: 300px;
+    display: flex;
+    margin-left: -110px;
+}
+
+
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.footer-nav_link {
+    color: rgb(0, 0, 0);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.second-footer {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 290px;
+    border-right: 1px solid rgb(164, 172, 173);
+    height: 300px;
+
+}
+
+.second-footer_title {
+
+    color: rgb(0, 0, 0);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.second-footer_num {
+
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+.second-footer_text {
+
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 77px;
+}
+
+.content-2 {
+    display: flex;
+    margin-top: 10px;
+    gap: 29px;
+}
+
+.finish {
+    margin-top: 31px;
+    margin-left: 41px;
+
+}
+
+.finish-num {
+    /* [object Object] */
+    color: rgb(164, 172, 173);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}

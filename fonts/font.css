@@ -1,0 +1,17 @@
+@font-face {
+    font-family:" dinpro-regular";
+    src: url(./DINPro-CondensedRegular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:" dinpro-medium";
+    src: url(./DINPro-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family:" dinpro-bold";
+    src: url(./DINPro-Bold.ttf);
+    font-weight: 700;
+}
